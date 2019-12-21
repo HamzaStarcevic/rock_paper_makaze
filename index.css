@@ -1,0 +1,30 @@
+#plScore {
+  box-shadow: 0 0 3px whitesmoke;
+  border-top-left-radius: 7px;
+  border-radius: 7px;
+}
+#cscore {
+  box-shadow: 0 0 3px black;
+  border-top-left-radius: 7px;
+  border-radius: 7px;
+}
+#pscore {
+  box-shadow: 0 0 3px black;
+  border-top-left-radius: 7px;
+  border-radius: 7px;
+}
+#row {
+  display: none;
+}
+#start {
+  border: solid 1px black;
+}
+#rock {
+  border: solid 1px black;
+}
+#paper {
+  border: solid 1px black;
+}
+#scissors {
+  border: solid 1px black;
+}

@@ -1,11 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script src="index.js"></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Rock, paper, scissors</title>
   </head>
-  <body></body>
+  <body style="background-color: rgb(70, 32, 32);">
+    <div class="row">
+      <div class="container py-3 mt-3 bg-dark text-white" id="plScore">
+        <h1>Rock,Paper,Scissors</h1>
+        <p>Player vs computer</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col"></div>
+      <div class="col">
+        <div id="pscore" class="container my-2  py-5 bg-dark text-light">
+          <span><center>Player score:</span> <br>
+            <span id="pr"><center>0</span>
+        </div>
+      </div>
+      <div class="col"><div id="cscore" class="container my-2  py-5 bg-dark text-light">
+        <span id="rule"><center>First to 3 points wins</span> <br>
+          <span id="result"><center></center></span>
+      </div></div>
+      <div class="col"><div id="cscore" class="container my-2  py-5 bg-dark text-light">
+        <span><center>Computer score:</span> <br>
+          <span id="cr"><center>0</span>
+      </div></div>
+      <div class="col" id="no"></div>
+    </div>
+    <div id="row" class="row">
+      <div class="col"></div>
+      <div class="col"><center><button class="button m-0 p-5 bg-dark text-light" id="rock"><span><center>Rock</center></span></button></center></div>
+      <div class="col"><center><button class="button m-0 p-5 bg-dark text-light" id="paper"><span><center>Paper</center></span></button></div>
+      <div class="col"><center><button class="button m-0 p-5 bg-dark text-light" id="scissors"><span><center>Scissors</center></span></button></center></div>
+      <div class="col" id="no"></div>
+    </div>
+    <div class="row">
+      <div class="col"></div>
+      <div class="col"><center><button class="button my-3 mx-0 p-5 bg-dark text-light" id="start">Start</button></center> </div>
+      <div class="col" id="no"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    
+  </body>
+  <script src="index.js"></script>
 </html>
